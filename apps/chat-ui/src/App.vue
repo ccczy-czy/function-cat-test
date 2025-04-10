@@ -4,9 +4,9 @@
     <div class="bg-blue-600 p-1 flex items-center justify-between text-white shadow-md">
       <button 
         @click="deployAIChat"
-        class="bg-purple-700 hover:bg-purple-800 text-white font-bold py-2 p-1 rounded flex items-center"
+        class="bg-red-700 hover:bg-red-800 text-white font-bold py-2 p-1 rounded flex items-center"
       >
-        测试Chat bot中～
+        测试Chat bot中
       </button>
       <div>
         <select id="model-select" v-model="model" class="select p-1 py-2 rounded bg-white text-black shadow-sm">
